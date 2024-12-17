@@ -1,0 +1,59 @@
+.hero {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 3rem;
+    position: relative;
+    padding-bottom: 4rem;
+    &::before {
+        content: url(/svg/wave.svg);
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 0;
+    }
+    &__content {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        position: relative;
+        &-heading {
+            font-weight: 900;
+            text-shadow: 0px 1px 6px rgba(16, 85, 3, 0.15);
+            text-align: center;
+            background: linear-gradient(91deg, #0A3E00 5.38%, #126F00 95.55%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &-text {
+            text-align: center;
+            max-width: 60%; 
+            margin: 0 auto;
+            margin-bottom: 3rem;
+            color: #4B4B4B;
+        }
+        &-searchbar {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            gap: .75rem;
+        }
+        &::after {
+            content: url(/images/Leaves-left.png);
+            position: absolute;
+            left: -11rem;
+            top: -8rem;
+            transform: scale(1.15);
+            z-index: -1;
+        }
+        &::before {
+            content: url(/images/Leaves-right.png);
+            position: absolute;
+            right: -7rem;
+            top: -6rem;
+            transform: scale(1.15);
+            z-index: -1;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.footer {
+    position: relative;
+    &__background {
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;
+    }
+    &__content {
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        margin-top: 7rem;
+        width: 100%;
+        gap: 5rem;
+        color: white;
+        &-column {
+            flex: 1;
+        }
+    }
+}
