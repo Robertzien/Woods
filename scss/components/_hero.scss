@@ -6,7 +6,7 @@
     position: relative;
     padding-bottom: 4rem;
     &::before {
-        content: url("./svg/wave.svg");
+        content: url(../svg/wave.svg);
         position: absolute;
         z-index: -1;
         left: 0;
