@@ -183,7 +183,7 @@ input[type=text]:focus {
   padding-bottom: 4rem;
 }
 .hero::before {
-  content: url("/Woods/svg/wave.svg");
+  content: url("./svg/wave.svg");
   position: absolute;
   z-index: -1;
   left: 0;
