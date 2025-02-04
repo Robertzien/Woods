@@ -218,7 +218,7 @@ input[type=text]:focus {
   gap: 0.75rem;
 }
 .hero__content::after {
-  content: url(../images/Leaves-left.png);
+  content: url(../../images/Leaves-left.png);
   position: absolute;
   left: -11rem;
   top: -8rem;
@@ -226,7 +226,7 @@ input[type=text]:focus {
   z-index: -1;
 }
 .hero__content::before {
-  content: url(../images/Leaves-right.png);
+  content: url(../../images/Leaves-right.png);
   position: absolute;
   right: -7rem;
   top: -6rem;
