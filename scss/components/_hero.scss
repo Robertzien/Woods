@@ -40,7 +40,7 @@
             gap: .75rem;
         }
         &::after {  
-            content: url(Woods/images/Leaves-left.png);
+            content: url(../images/Leaves-left.png);
             position: absolute;
             left: -11rem;
             top: -8rem;
@@ -48,7 +48,7 @@
             z-index: -1;
         }
         &::before {
-            content: url(Woods/images/Leaves-right.png);
+            content: url(../images/Leaves-right.png);
             position: absolute;
             right: -7rem;
             top: -6rem;
