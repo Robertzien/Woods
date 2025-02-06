@@ -277,6 +277,11 @@ input[type=text]:focus {
   padding-top: 10rem;
 }
 
+.container--intro {
+  flex-flow: column nowrap;
+  padding-bottom: 0;
+}
+
 .worldmap__side {
   flex: 1;
 }
